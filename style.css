@@ -1,0 +1,142 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: black;
+}
+.main{
+    background-image: url(assets/images/img1.jpg);
+    background-position: center center;
+    background-size: max(1200 , 100vw);
+    height: 80vh;
+    position: relative;
+}
+.main .box{
+    position: absolute;
+    top: 0%;
+    background-color: black;
+    width: 100vw;
+    height: 80vh;
+    opacity: 0.33;
+
+}
+
+.main nav{
+    position: relative;
+    max-width: 60vw;
+    margin: auto;
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+    height: 52px;
+    z-index: 1000;
+}
+.main div .btn{
+    height: 35px;
+    width: 75px;
+    font-size: 15px;
+    font-weight: 700;
+    background-color: rgb(141, 127, 127);
+    color: white;
+    opacity: .77;
+    border: none;
+    border-radius: 4px; 
+}
+.main div .btn-red-sm{
+    height: 35px;
+    width: 65px;
+    font-size: 15px;
+    font-weight: 700;
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: 4px; 
+}
+
+.main .hero{
+    position: relative;
+    height: calc(100% - 52px);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    gap: 10px;
+}
+ .hero> :nth-child(1){
+    font-family:  "Netflix Sans", "Helvetica Neue", "Segoe UI", Roboto, Ubuntu, sans-serif;
+    font-size: 54px;
+    font-weight: 700;
+    text-align: center;
+}
+ .hero> :nth-child(2){
+    font-family:  "Netflix Sans", "Helvetica Neue", "Segoe UI", Roboto, Ubuntu, sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+}
+.hero> :nth-child(3){
+    font-family: "Netflix Sans", "Helvetica Neue", "Segoe UI", Roboto, Ubuntu, sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
+}
+.sepration{
+    height: 5px;
+    background-color: rgb(34, 34, 34);
+}
+.main input{
+    font-size: 12px;
+    font-weight: 900;
+    padding: 9px 48px 8px 25px;
+    color: white;
+    border-radius: 6px;
+    border: 1px solid rgba(206, 202, 202, 0.5);
+    background-color: rgba(34, 34, 34, 0.8);
+
+}
+.hero-buttons{
+    display: flex;
+    align-items: left;
+    justify-content: left;
+    gap: 16px;
+ }
+.main .hero .hero-buttons .btn-red{
+  
+    font-size: 12px;
+    background-color: red;
+    
+}
+.first{
+    display: flex;
+    justify-content: center;
+    max-width: 70vw;
+    margin: auto;
+    color: white;
+    align-items: center;
+}
+.secimg{
+    position: relative;
+}
+.secimg img{
+   width: 35vw;
+   position: relative;
+   z-index: 10;
+}
+.secimg video{
+    position: absolute;
+    top: 51px;
+    right: 0;
+}
+section.first > div{
+    display: flex;
+    flex-direction: column;
+}
+section.first > div :nth-child(1){
+    font-size: 40px;
+    font-weight: 500;
+}
+section.first > div :nth-child(2){
+    font-size: 20px;
+    font-weight: 500;
+}
